@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MoodTunes - AI DJ Playlist</title>
+
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Font: Poppins -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Optional: Custom styles -->
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+      }
+
+      button {
+        @apply bg-indigo-600 hover:bg-indigo-500 text-white font-semibold py-1 px-3 rounded;
+      }
+
+      input {
+        @apply border border-gray-400 rounded py-1 px-2 text-black;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-900 text-white">
+    <div id="root"></div>
+    <script type="module" src="/main.jsx"></script>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+.cursor-logo {
+  position: fixed;
+  pointer-events: none;
+  opacity: 0.75;   /* faint background */
+  z-index: 0;      /* behind all content */
+}
